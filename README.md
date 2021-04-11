@@ -1,8 +1,7 @@
 # **Dynamic Matrix**
 _image_
 ## **Description**
-This app receives N and M number, to create an inputs matrix. This matrix only receives integers value.
-
+This app receives N and M number, to create an inputs matrix. This matrix only receives integers value. The total value in row and column will be equal to 100.
 
 #### **Follow me** 💬
 | **Authors** | **GitHub** | **Twitter** | **Linkedin** |
