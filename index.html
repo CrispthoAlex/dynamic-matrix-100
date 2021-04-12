@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Matrix</title>
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <nav class="navbar">
+                <ul class="navbar__content">
+                    <li class="navbar__content-item"><a target="_blank" href="https://www.jqueryscript.net">Documentation</a></li>
+                    <li class="navbar__content-item"><a target="_blank" href="https://linkedin.com/in/carmurrain">About Me</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+    </header>
+    <main class="main-content">
+        <div class="container">
+            <div class="main-content__text">
+                <h1 class="main-content__text-title">Dynamic Matrix</h1>
+                <p class="main-content__text-paragraph">This app receives N and M number, to create an inputs matrix. This matrix only receives integers value. The total value in row and column will be equal to 100.</p>
+                <p class="main-content__text-inputs">
+                    Number of Rows: <input type="number"  id="rowsInput">
+                    Number of Column: <input type="number" id="colsInput">
+                </p>
+            </div>
+            <div class="main-content__buttons">
+                <button class="main-content__buttons-Matrix">Create Matrix</button>
+                <button class="main-content__buttons-Total">Check Total</button>
+            </div>
+            <div class="table-box">
+                <table id="dynamicMatrix">
+                </table>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="main-footer">
+            <div class="container">
+                <div class="main-footer__box">
+                    <div class="whoiam">
+                        <p class="whoiam__text">I'm Crispthofer, nice to meet you</p>
+                        <ul class="whoiam__findme">
+                            <li title="www.linkedin.com" class="connect"><a target="_blank" href="https://linkedin.com/in/carmurrain"><img src="./images/linkedin.svg" alt="LinkedIn Logo"></a></li>
+                            <li title="www.github.com" class="connect"><a target="_blank" href="https://github.com/crispthoalex/"><img src="./images/github.svg" alt="GitHub Logo"></a></li>
+                            <li title="www.twitter.com" class="connect"><a target="_blank" href="https://twitter.com/crispthoalex/"><img src="./images/twitter.svg" alt="Twitter Logo"></a></li>
+                        </ul>
+                    </div>
+                    <div class="rights">
+                        <p>
+                        Photo by <a href="https://unsplash.com/@sawyerbengtson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sawyer Bengtson</a> on <a href="https://unsplash.com/s/photos/theatre?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                        </p>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </footer>
+    <!-- scripts -->
+    <script src="//code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="./scripts/appMatrix.js"></script>
+</body>
+</html>

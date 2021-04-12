@@ -1,0 +1,23 @@
+/* MAIN HEADER */
+
+.main-header {
+    display: flex;
+    background-color: darkgoldenrod;
+}
+
+.navbar {
+
+    width: 90%;
+    margin: 0 auto;
+    &__content {
+        display: flex;
+        justify-content: space-evenly;
+        width: 50&;
+        font-weight: 900;
+        color: #ffffff;
+
+        &-item {
+            padding: 10px 0;
+        }
+    }
+}

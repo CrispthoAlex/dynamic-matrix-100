@@ -1,0 +1,94 @@
+/* MAIN CONTENT */
+
+.main-content {
+    display: flex;
+    align-items: center;
+    padding: 10% 0;
+    &__text {
+        width: 80%;
+        margin: 0 auto 20px;
+        padding: 5px 0;
+        
+        box-shadow: 0px 4px 5px #545454;
+        &-title {
+            width: 100%;
+            margin: 0 auto 10%;
+            align-items: center;
+            font-weight: 900;
+            font-size: 40px;
+            text-align: center;
+            text-transform: uppercase;
+            text-shadow: 2px 0px 2px chocolate;
+            background-color: rgba(255, 255, 255, 0.802);
+        }
+        
+        
+        &-paragraph {
+            width: 80%;
+            margin: 0 auto 50px;
+            padding: 10px;
+            font-size: 18px;
+            text-align: justify;
+        }
+        &-inputs {
+            width: 80%;
+            margin: 0 auto 5%;
+            display: flex;
+            flex-flow: row;
+            align-items: center;
+            justify-content: space-evenly;
+            input[type=number] {
+                width: 45px;
+                text-align: center;
+                box-shadow: 2px 2px 2px black;
+                border: 2px solid darkblue;
+                border-radius: 10px;
+            }           
+        }
+    }
+    &__buttons {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        width: 70%;
+        margin: 0 auto 50px;
+        &-Matrix, &-Total{
+            width: 120px;
+            padding: 10px 0;
+            margin-bottom: 10px;
+            color: #dfdddd;
+            font-weight: 900;
+            background-color: mediumblue;
+            box-shadow: 2px 2px 2px rgb(233, 113, 0);
+            border-radius: 25px;
+        } 
+    }
+}
+
+
+.table-box {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+.dynamicMatrix {
+    width: 80%;
+    margin:0 auto;
+    text-align: center;
+
+    &__title { text-align: center; }
+    &__cell {
+        input[type="number"] {
+            width: 55px;
+            text-align: center;
+            font-size: 14px;
+            padding: 5px 0;
+            border-radius: 15px;
+        }
+    }
+
+}
+
+

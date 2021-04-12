@@ -1,0 +1,54 @@
+/* Stableshing Fonts */
+
+
+/* General CSS properties */
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+body, ul, li {
+    margin:0;
+    padding: 0;
+}
+ul, li {
+    list-style: none;
+}
+body { overflow-x: hidden; }
+body, html {
+    color: darkblue;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+body {
+    background-color: #ffef73ab;
+
+}
+html {
+    background: no-repeat, url("../images/sawyer-bengtson-city-unsplash.jpg");
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin:0 auto;
+}
+
+/* Don't show link behavior*/
+a:visited {
+    color:currentColor;
+}
+a:visited, a:link {
+    text-decoration: none;
+    color:currentColor;
+}
+/* Don't show border when click */
+button {
+    border:none;
+    &:focus {
+        outline:none;
+    }
+}
+

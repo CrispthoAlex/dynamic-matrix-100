@@ -1,0 +1,211 @@
+/* Components to compile */
+/* Stableshing Fonts */
+/* General CSS properties */
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+body, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body, html {
+  color: darkblue;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+body {
+  background-color: #ffef73ab;
+}
+
+html {
+  background: no-repeat, url("../images/sawyer-bengtson-city-unsplash.jpg");
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Don't show link behavior*/
+a:visited {
+  color: currentColor;
+}
+
+a:visited, a:link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+/* Don't show border when click */
+button {
+  border: none;
+}
+button:focus {
+  outline: none;
+}
+
+/* MAIN HEADER */
+.main-header {
+  display: flex;
+  background-color: darkgoldenrod;
+}
+
+.navbar {
+  width: 90%;
+  margin: 0 auto;
+}
+.navbar__content {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50 .navbar__content;
+  font-weight: 900;
+  color: #ffffff;
+}
+.navbar__content-item {
+  padding: 10px 0;
+}
+
+/* MAIN CONTENT */
+.main-content {
+  display: flex;
+  align-items: center;
+  padding: 10% 0;
+}
+.main-content__text {
+  width: 80%;
+  margin: 0 auto 20px;
+  padding: 5px 0;
+  box-shadow: 0px 4px 5px #545454;
+}
+.main-content__text-title {
+  width: 100%;
+  margin: 0 auto 10%;
+  align-items: center;
+  font-weight: 900;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 2px 0px 2px chocolate;
+  background-color: rgba(255, 255, 255, 0.802);
+}
+.main-content__text-paragraph {
+  width: 80%;
+  margin: 0 auto 50px;
+  padding: 10px;
+  font-size: 18px;
+  text-align: justify;
+}
+.main-content__text-inputs {
+  width: 80%;
+  margin: 0 auto 5%;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.main-content__text-inputs input[type=number] {
+  width: 45px;
+  text-align: center;
+  box-shadow: 2px 2px 2px black;
+  border: 2px solid darkblue;
+  border-radius: 10px;
+}
+.main-content__buttons {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto 50px;
+}
+.main-content__buttons-Matrix, .main-content__buttons-Total {
+  width: 120px;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  color: #dfdddd;
+  font-weight: 900;
+  background-color: mediumblue;
+  box-shadow: 2px 2px 2px #e97100;
+  border-radius: 25px;
+}
+
+.table-box {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.dynamicMatrix {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.dynamicMatrix__title {
+  text-align: center;
+}
+.dynamicMatrix__cell input[type=number] {
+  width: 55px;
+  text-align: center;
+  font-size: 14px;
+  padding: 5px 0;
+  border-radius: 15px;
+}
+
+/*FOOTER SECTION*/
+.main-footer {
+  width: 100%;
+  padding-top: 20px;
+  border-top: 1px solid black;
+}
+.main-footer__box {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.whoiam {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 90%;
+  margin: 30px auto;
+}
+.whoiam__text {
+  margin-bottom: 20px;
+}
+.whoiam__findme {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 700px;
+}
+.whoiam__findme .connect {
+  margin: 0 20px 0 0;
+}
+.whoiam__findme .connect img {
+  width: 42px;
+}
+
+.rights {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
+  margin: 0 auto;
+  width: 90%;
+  padding: 20px 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
